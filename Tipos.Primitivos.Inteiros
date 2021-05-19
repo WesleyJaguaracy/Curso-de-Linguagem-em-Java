@@ -1,0 +1,24 @@
+(Aula 3.1) Tipos Primitivos Inteiros
+
+package tiposprimitivos;
+
+public class NumerosInteiros {
+
+    public static void main(String[] args) {
+        
+        byte idade = 32; //-128 até 127
+        short batimentosDiarios = 31768; //-32768 até 32767
+        int batimentosSemanais = 2_100_768; // 2 milhões
+        long batimentosAnuais = 3_976_732_100L; // quinquilhão
+        
+        short anuaAtual = 2018;
+        
+        System.out.println("Idade:" + idade);
+        System.out.println("BatimentosDiarios" + batimentosDiarios);
+        System.out.println("BatimentosSemanais" + batimentosSemanais);
+        System.out.println("BatimentosAnuais" + batimentosAnuais);
+    }
+}
+/*Tipos Primitivos Inteiros:
+byte, short, int, long.
+De acordo com sua necessidade você vai utilizando eles.*/
