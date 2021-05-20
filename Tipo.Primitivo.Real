@@ -1,0 +1,17 @@
+(Aula 3.2) Tipo Primitivo Real
+
+public class NumeroReais {
+    public static void main(String[] args) {
+       
+        float altura = 1.78f;
+        double petroleo = 200_372.9008760;
+               
+        System.out.println("Altura: " + altura);
+        System.out.println("Petroleo: " + petroleo);
+    }
+ 
+}
+
+DIFERENÇAS entre tipos primitivos: 
+float: ele não é tão preciso.
+double é utilizado quando você precisa de precisão da sua informação, e ele contém 300 e poucas casas decimas, então quer dizer que depois da vírgula ele vai armazenar 300 e poucas casas decimais.
