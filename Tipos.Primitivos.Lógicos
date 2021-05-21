@@ -1,0 +1,13 @@
+public class Logico {
+	 
+	 public static void main(String[] args)
+	     boolean carro = true; // verdadeiro
+	     boolean moto = false; // falso
+
+	     moto = true;
+
+	     System.out.println("Carro: " + carro);
+ 	     System.out.println("Moto: " + moto);
+          }
+     }
+//*boolean é igual a lógico.
